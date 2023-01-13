@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+/*GENERAL STATEMENTS*/
+*{
+    font-family: 'Josefin Sans', monospace ,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    max-width: 600px;
+}
+
+ul{
+    list-style-type: none;
+    padding-inline-start: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+}
+/* -------------- Common statements --------------- */
+.header, .first-space, .footer{
+    display: flex;
+    background: #1f2739;
+}
+
+.header .logo, .presentation h2{
+color: #f9faf8;
+}
+
+.header ul li a, .presentation p{
+    color: #e5e7eb;
+}
+
+/* --------------- Specific Statements ---------------*/
+.first-space{
+    flex-direction: column;
+    padding: 100px;
+}
+
+.header{
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.header .logo{
+    font-size: 24px;
+}
+
+.header ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li a:hover{
+    color: #afbcd6;
+}
+
+.hero{
+    display: flex;
+    gap: 80px;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 400px;
+}
+
+.presentation h2{
+    font-size: 48px;
+    font-weight:700;
+}
+
+.presentation p{
+    font-size: 18px;
+}
+
+.presentation div{
+    margin-top: 10px;
+}
+
+.signup-button {
+    padding: 6px 16px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 1px solid #306bc8;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.hero img{
+    flex: 1 1 auto;
+}
