@@ -60,7 +60,9 @@ button{
 }
 
 .header{
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 10px;
     margin-bottom: 80px;
 }
 
@@ -119,6 +121,7 @@ button{
 .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
