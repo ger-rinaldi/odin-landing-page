@@ -40,9 +40,11 @@ color: #f9faf8;
 }
 
 /* --------------- Specific Statements ---------------*/
+/* ---- First Part -----*/
 .first-space{
+    display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 80px;
 }
 
 .header{
@@ -100,3 +102,37 @@ color: #f9faf8;
 .hero img{
     flex: 1 1 auto;
 }
+/* ---- Second Part -----*/
+
+.second-space{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px;
+}
+
+.second-space h1{
+    margin-bottom: 60px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-container{
+    flex: 0 1 150px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+/* ---- Third Part -----*/
+/* ---- Fourth Part -----*/
