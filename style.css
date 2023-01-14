@@ -47,6 +47,11 @@ button{
     border: 1px solid #306bc8;
     border-radius: 8px;
 }
+
+.signup-button a{
+    color: white;
+    
+}
 /* --------------- Specific Statements ---------------*/
 /* ---- First Part -----*/
 .first-space{
@@ -94,10 +99,6 @@ button{
 }
 
 
-.signup-button a{
-    color: white;
-    
-}
 .hero image{
     flex: 1;
 }
