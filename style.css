@@ -32,17 +32,24 @@ button{
 }
 
 .header .logo, .presentation h2{
-color: #f9faf8;
+    color: #f9faf8;
 }
 
 .header ul li a, .presentation p{
     color: #e5e7eb;
 }
 
+.signup-button { /*This button also appears in the Call To Action banner*/
+    max-width: fit-content;
+    background: #3882f6;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: 1px solid #306bc8;
+    border-radius: 8px;
+}
 /* --------------- Specific Statements ---------------*/
 /* ---- First Part -----*/
 .first-space{
-    display: flex;
     flex-direction: column;
     padding: 100px;
 }
@@ -86,14 +93,6 @@ color: #f9faf8;
     font-size: 18px;
 }
 
-.signup-button {
-    max-width: fit-content;
-    background: #3882f6;
-    padding: 8px 16px;
-    margin-top: 10px;
-    border: 1px solid #306bc8;
-    border-radius: 8px;
-}
 
 .signup-button a{
     color: white;
