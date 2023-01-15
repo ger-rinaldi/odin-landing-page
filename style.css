@@ -100,9 +100,12 @@ button{
     font-size: 18px;
 }
 
-
-.hero .image{
+.hero .image-container{
     flex: 1;
+    background: #e5e7eb81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* ---- Second Part -----*/
 
