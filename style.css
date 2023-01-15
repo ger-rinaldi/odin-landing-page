@@ -162,3 +162,23 @@ button{
     padding-right: 4%;
 }
 /* ---- Fourth Part -----*/
+.last-space{
+    padding: 80px;
+}
+
+
+.signup-container{
+    background: #3882f6;
+    padding: 45px 90px;
+    border-radius: 10px;
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color: #f9faf8;
+    padding: 5px;
+}
+
+/* --------------- Footer --------------- */
