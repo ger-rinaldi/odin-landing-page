@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
 
 img{
     max-width: 600px;
@@ -48,7 +52,7 @@ button{
     border: 1px solid #306bc8;
     border-radius: 8px;
     margin-top: 10px;
-    
+    white-space: nowrap;
 }
 
 .signup-button:hover{
@@ -62,6 +66,7 @@ button{
 .first-space{
     flex-direction: column;
     padding: 100px;
+    padding-top: 30px;
 }
 
 .header{
@@ -168,7 +173,10 @@ button{
 }
 /* ---- Fourth Part -----*/
 .last-space{
-    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px;
 }
 
 
@@ -176,10 +184,10 @@ button{
     background: #3882f6;
     padding: 45px 90px;
     border-radius: 10px;
-    margin: 60px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .text{
