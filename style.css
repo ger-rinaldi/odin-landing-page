@@ -39,18 +39,23 @@ button{
     color: #e5e7eb;
 }
 
-.signup-button { /*This button also appears in the Call To Action banner*/
-    max-width: fit-content;
+.signup-button{
+    color: white;
+    text-decoration: none;
     background: #3882f6;
+    max-width: fit-content;
     padding: 8px 16px;
-    margin-top: 10px;
     border: 1px solid #306bc8;
     border-radius: 8px;
+    margin-top: 10px;
+    
 }
 
-.signup-button a{
-    color: white;
-    
+.signup-button:hover{
+    color: rgb(210, 252, 255);
+    text-decoration: none;
+    background: #2f6ccd;
+    border: 1px solid #4574c0;
 }
 /* --------------- Specific Statements ---------------*/
 /* ---- First Part -----*/
